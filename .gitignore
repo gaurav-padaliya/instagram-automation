@@ -1,0 +1,32 @@
+
+---
+
+### 2. .gitignore
+
+Create a file named **.gitignore** in the root of your project. This file tells Git which files and directories to ignore. You can use the following as a starting point:
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.env
+
+# Output folder for generated images
+output/
+
+# Environment variables (if using a .env file for credentials)
+.env
+
+# System files (macOS, Windows)
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+credentials.json
